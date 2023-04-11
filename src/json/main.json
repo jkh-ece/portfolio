@@ -10,7 +10,7 @@
     "home": {
         "name": "John Kenneth Hugo",
         "title": "Radio Frequency Engineer and Software Engineer",
-        "image": "./assets/images/main-image.jpg",
+        "image": ".public/assets/images/main-image.jpg",
         "messages": [
             {
                 "id": 1,
