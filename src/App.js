@@ -8,14 +8,16 @@ import { useState} from 'react';
 
 
 function App() {
-  const [activeBtn, setActiveBtn] = useState("home");
+  const [activeBtn, setActiveBtn] = useState("Home");
+  const [page, setPage] = useState("Home");
 
-  const btnColorChanger = (value) => {
+  const pageChangeHandler = (value) => {
     setActiveBtn(value);
+    setPage(value);
   }
 
   const downloadCVHandler =() => {
-    const path = json.links.CVPath
+    const path = json.links.CVURL;
     window.open(path);
   }
 
@@ -24,25 +26,25 @@ function App() {
       <Router>
         <div className="portfolio-topbar">
           <div className="topbar-logo">
-            <p title='Download CV' onClick={()=>{downloadCVHandler()}}>JKH</p>
+            <p title='Download CV' onClick={()=>{downloadCVHandler()}}>{page}</p>
           </div>
           <div className="topbar-nav">
             <Link to='/portfolio'>
-              <button title='Home' className={`nav-btn ${activeBtn === "home" && "active"}`} value="home" onClick={e => btnColorChanger(e.target.value)} />
+              <button title='Home' className={`nav-btn ${activeBtn === "Home" && "active"}`} value="Home" onClick={e => pageChangeHandler(e.target.value)} />
             </Link>
             <Link to='/portfolio/about'>
-              <button title='About me' className={`nav-btn ${activeBtn === "about" && "active"}`} value="about" onClick={e => btnColorChanger(e.target.value)} />
+              <button title='About me' className={`nav-btn ${activeBtn === "About" && "active"}`} value="About" onClick={e => pageChangeHandler(e.target.value)} />
               </Link>
             <Link to='/portfolio/contact'>
-              <button title='Contact me' className={`nav-btn ${activeBtn === "contact" && "active"}`} value="contact" onClick={e => btnColorChanger(e.target.value)} />
+              <button title='Contact me' className={`nav-btn ${activeBtn === "Contact" && "active"}`} value="Contact" onClick={e => pageChangeHandler(e.target.value)} />
               </Link>
           </div>
         </div>
 
           <Routes>
             <Route exact path='/portfolio' element={<Home data={json.home} />} />
-            <Route exact path='/portfolio/about' element={<About data={json.about}/>} />
-            {/* <Route exact path='/portfolio/contact' element={<Contact />} /> */}
+            <Route exact path='/portfolio/about' element={<About data={json.about} CVURL={json.links.CVURL}/>} />
+            <Route exact path='/portfolio/contact' element={<Contact data={json.links}/>} />
             <Route exact path='*' element={<div className='notFound'><p>404</p></div>} />
           </Routes>
 

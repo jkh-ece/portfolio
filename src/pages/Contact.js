@@ -1,15 +1,59 @@
 import '../styles/Contact.css';
 
-function Contact() {
+function Contact(contact) {
+  const data = contact.data;
+
+  const buttonHandler = (url) => {
+    window.open(url);
+  }
+
+  const submitHandler = () => {
+    alert("Im still working on implementing this feature, but in the meantime, you can reach me through Facebook and LinkedIn. -JKH");
+    console.log('not yet finished');
+  }
+
+
   return (
-        <div className="main-contact">
-          <div className="home-image">
-          </div>
-          <div className="home-text">
-            <h1>John Kenneth Hugo</h1>
-            <h2>Radio Frequency Software Engineer</h2>
-          </div>
+    <div className="row-contact">
+      <div className='contact-form'>
+        <form className="form-input" onSubmit={submitHandler}>
+          <h2>Contact me</h2>
+          <input
+            type="text"
+            id="name"
+            placeholder='Name'
+            required />
+          <input
+            type="text"
+            id="subject"
+            placeholder='Subject'
+            required />
+          <input
+            type="email"
+            id="email"
+            placeholder='Email'
+            required />
+          <textarea
+            id="message"
+            placeholder='Message'
+            required />
+          <button type="submit">
+            Send
+          </button>
+        </form>
+        <div className='contact-socmedia'>
+        <h2>Reach me at: </h2>
+          <button
+            value={data.FBURL}
+            onClick={e => buttonHandler(e.target.value)}>
+            Facebook</button>
+          <button
+            value={data.LinkedInURL}
+            onClick={e => buttonHandler(e.target.value)}>
+            LinkedIn</button>
         </div>
+      </div>
+    </div>
   );
 }
 
