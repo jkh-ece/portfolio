@@ -7,7 +7,8 @@ function Contact(contact) {
     window.open(url);
   }
 
-  const submitHandler = () => {
+  const submitHandler = (e) => {
+    e.preventDefault();
     alert("Im still working on implementing this feature, but in the meantime, you can reach me through Facebook and LinkedIn. -JKH");
     console.log('not yet finished');
   }
