@@ -1,4 +1,5 @@
 import '../styles/Home.css';
+import mainImage from '../images/main-image.jpg';
 
 function Home(home) {
     console.log(home.data);
@@ -9,7 +10,7 @@ function Home(home) {
 
             <div className="row-home">
                 <div className="home-image">
-                    <img src={data.image} alt='Main' />
+                    <img src={mainImage} alt='Main' />
                 </div>
                 <div className="home-head">
                     <h1>{data.name}</h1>
