@@ -1,6 +1,6 @@
 {
-  "name": "portfolio-jkh",
-  "homepage": "http://jkh-ece.github.io/portfolio-jkh",
+  "homepage": "http://jkh-ece.github.io/portfolio",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
