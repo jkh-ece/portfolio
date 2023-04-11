@@ -40,7 +40,7 @@ function App() {
         </div>
 
           <Routes>
-            <Route exact path='/' element={<Home data={json.home} />} />
+            <Route exact path='/portfolio' element={<Home data={json.home} />} />
             {/* <Route exact path='/about' element={<About />} />
             <Route exact path='/contact' element={<Contact />} /> */}
             <Route exact path='*' element={<div className='notFound'><p>404</p></div>} />
