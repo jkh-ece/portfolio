@@ -41,8 +41,8 @@ function App() {
 
           <Routes>
             <Route exact path='/portfolio' element={<Home data={json.home} />} />
-            {/* <Route exact path='/portfolio/about' element={<About />} />
-            <Route exact path='/portfolio/contact' element={<Contact />} /> */}
+            <Route exact path='/portfolio/about' element={<About data={json.about}/>} />
+            {/* <Route exact path='/portfolio/contact' element={<Contact />} /> */}
             <Route exact path='*' element={<div className='notFound'><p>404</p></div>} />
           </Routes>
 

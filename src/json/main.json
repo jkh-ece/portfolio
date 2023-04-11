@@ -21,5 +21,197 @@
                 "content": "Previously, I worked as a Radio Frequency Engineer, specializing in Inbuilding Solutions. During my two years in this role, I developed proficiency in both 2D and 3D AutoCAD, which enabled me to design and implement CME projects that met the project's compliance requirements. I also have experience using Walktest tools like TEMS Pocket and Nemo Handy and working with passive/SCMIMO/Hybrid Distributed Antenna Systems (DAS). My knowledge of various mobile network technologies including GSM, UMTS, LTE, and NR, as well as my understanding of active indoor solutions like Lampsite, further enhance my capabilities. In addition, my ability to drive both manual and automatic transmission vehicles made me a versatile team member."
             }
         ]
+    },
+    "about": {
+        "education": {
+            "school": "Camarines Sur Polytechnic College",
+            "graduated": "April 2019",
+            "course": "Bachelor of Science in Electronics and Communication Engineering",
+            "organization": [
+                {
+                    "id": 1,
+                    "name": "IECEP CSPC Student Chapter",
+                    "duration": "2018-19",
+                    "position": "Vice President (Internal)"
+                },
+                {
+                    "id": 2,
+                    "name": "CSPC Robotics Club",
+                    "duration": "2017-18",
+                    "position": "Bus. Manager"
+                },
+                {
+                    "id": 3,
+                    "name": "341st Naval Reserve Officer Training Corps Unit",
+                    "duration": "2013-14",
+                    "position": "Cadet Captain"
+                }
+            ],
+            "awards": [
+                {
+                    "id": 1,
+                    "name": "15th Smart Wireless Engineering Education Program",
+                    "position": "Top 10 Finalist"
+                },
+                {
+                    "id": 2,
+                    "name": "Gawad Likha CSPCean`19",
+                    "position": "First Place"
+                },
+                {
+                    "id": 3,
+                    "name": "2/2019/050537",
+                    "position": "Utility Model Holder"
+                }
+            ]
+        },
+        "skillset": [
+            {
+                "id": 1,
+                "name": "Software Engineering",
+                "skills": [
+                    {
+                        "id": 1,
+                        "skill": "Java Enterprise Edition"
+                    },
+                    {
+                        "id": 2,
+                        "skill": "React.JS"
+                    },
+                    {
+                        "id": 3,
+                        "skill": "HTML, CSS, JS"
+                    },
+                    {
+                        "id": 4,
+                        "skill": "Core Banking"
+                    },
+                    {
+                        "id": 5,
+                        "skill": "Arduino and ESP8266/32"
+                    },
+                    {
+                        "id": 6,
+                        "skill": "Hardware/Software Troubleshooting"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "RF Engineering",
+                "skills": [
+                    {
+                        "id": 1,
+                        "skill": "2D/3D AutoCAD"
+                    },
+                    {
+                        "id": 2,
+                        "skill": "IBWave Design"
+                    },
+                    {
+                        "id": 3,
+                        "skill": "Radio Access Technology(GSM, UMTS, LTE, NR)"
+                    },
+                    {
+                        "id": 4,
+                        "skill": "Nemo Handy and TEMS Pocket"
+                    },
+                    {
+                        "id": 5,
+                        "skill": "Civil, Mechanical, Electrical planning"
+                    },
+                    {
+                        "id": 6,
+                        "skill": "Technical Site Survey Report"
+                    },
+                    {
+                        "id": 7,
+                        "skill": "Site Audit and Preliminary Acceptance Testing"
+                    }
+                ]
+            }
+        ],
+        "workset": [
+            {
+                "id": 1,
+                "company": "GF Micro Optics Phils.",
+                "post": "Intern - Production Engineer",
+                "duration": "April – June 2018",
+                "roles": [
+                    {
+                        "id": 1,
+                        "role": "Assisted Supervisor in various tasks"
+                    },
+                    {
+                        "id": 2,
+                        "role": "Assisted in the production of Thermally Expanded Core"
+                    },
+                    {
+                        "id": 3,
+                        "role": "Prepared docs for QA/QC dept"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "company": "FiberHome Phils., Inc.",
+                "post": "Design Engineer",
+                "duration": "January 29, 2020 - July 22, 2022",
+                "roles": [
+                    {
+                        "id": 1,
+                        "role": "Conducted Technical Site Survey, Site Audit, Minor Rectification"
+                    },
+                    {
+                        "id": 2,
+                        "role": "Conducted Signal testing using Walktest tools (Nemo Handy, TEMS Pocket)"
+                    },
+                    {
+                        "id": 3,
+                        "role": "Assisted in Technical Site Survey Report"
+                    },
+                    {
+                        "id": 4,
+                        "role": "Assisted in Implementation works"
+                    },
+                    {
+                        "id": 5,
+                        "role": "Prepared Initial Building Design"
+                    },
+                    {
+                        "id": 6,
+                        "role": "Drafted ACL plan and Trunking diagram of DAS for Installation Plan"
+                    },
+                    {
+                        "id": 7,
+                        "role": "Designed CME (Civil, Mechanical, Electrical) Plans"
+                    },
+                    {
+                        "id": 8,
+                        "role": "Provided support in IBS Design to meet the client's criteria"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "company": "Accenture Inc.",
+                "post": "Software Engineer",
+                "duration": "July 25, 2022 - Present",
+                "roles": [
+                    {
+                        "id": 1,
+                        "role": "Assists in Documentation and Tool setup"
+                    },
+                    {
+                        "id": 2,
+                        "role": "Accomplished company required trainings"
+                    },
+                    {
+                        "id": 3,
+                        "role": "Assists in Java for customer management app"
+                    }
+                ]
+            }
+        ]
     }
 }

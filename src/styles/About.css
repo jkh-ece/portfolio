@@ -1,0 +1,41 @@
+.row-about {
+    display: flex; 
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 5vh;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.about-card {
+    font-family: monospace;
+    color: #bbb;
+    margin: 5vh 30px;
+    background-image: linear-gradient(#020216, #090937);
+    flex: 1;
+    min-height: vw;
+    max-height: 500px;
+    padding: 20px;
+    transition: 0.25s;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px 0 rgba(255, 255, 255, 0.2), 0 3px 10px 0 rgba(255, 255, 255, 0.19);
+    transition: 0.3s;
+}
+.about-card:hover {
+    transform: scale(1.05);
+}
+
+.card-title{
+    font-weight: bolder;
+    font-size:calc(10px + 1vw);
+}
+
+.card-contents{
+    max-height: 35vh;
+    overflow: hidden;
+}
+
+.card-contents:hover{
+    overflow-y: scroll;
+}
