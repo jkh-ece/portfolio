@@ -27,20 +27,20 @@ function App() {
             <p title='Download CV' onClick={()=>{downloadCVHandler()}}>JKH</p>
           </div>
           <div className="topbar-nav">
-            <Link to='/'>
+            <Link to='/portfolio'>
               <button title='Home' className={`nav-btn ${activeBtn === "home" && "active"}`} value="home" onClick={e => btnColorChanger(e.target.value)} />
             </Link>
-            <Link to='/about'>
+            <Link to='/portfolio/about'>
               <button title='About me' className={`nav-btn ${activeBtn === "about" && "active"}`} value="about" onClick={e => btnColorChanger(e.target.value)} />
               </Link>
-            <Link to='/contact'>
+            <Link to='/portfolio/contact'>
               <button title='Contact me' className={`nav-btn ${activeBtn === "contact" && "active"}`} value="contact" onClick={e => btnColorChanger(e.target.value)} />
               </Link>
           </div>
         </div>
 
           <Routes>
-            <Route exact path='/' element={<Home data={json.home} />} />
+            <Route exact path='/portfolio' element={<Home data={json.home} />} />
             {/* <Route exact path='/about' element={<About />} />
             <Route exact path='/contact' element={<Contact />} /> */}
             <Route exact path='*' element={<div className='notFound'><p>404</p></div>} />
