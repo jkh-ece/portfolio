@@ -50,7 +50,7 @@ function Contact(contact) {
             Facebook</button>
           <button
             value={data.LinkedInURL}
-            onClick={e => buttonHandler(e.target.value)}>
+            onClick={e => buttonHandler(e)}>
             LinkedIn</button>
         </div>
       </div>
