@@ -1,0 +1,25 @@
+{
+    "status": {
+        "version": "J 0.1",
+        "title": "Portfolio",
+        "updated": "April 11, 2023"
+    },
+    "links": {
+        "CVPath": "https://drive.google.com/file/d/1Ys2_frH62ygd3Hs5XEl479BAfF5Z92E9/view?usp=sharing"
+    },
+    "home": {
+        "name": "John Kenneth Hugo",
+        "title": "Radio Frequency Engineer and Software Engineer",
+        "image": "./assets/images/main-image.jpg",
+        "messages": [
+            {
+                "id": 1,
+                "content": "I am currently employed as a Packaged App Developer assigned in Core Banking customer management, focusing primarily on Java development. With decent knowledge of software development for the banking industry and familiarity in regulatory compliance, I am well-equipped to meet the requirements and constraints of the industry. In my spare time, I enjoy coding in React.js and have developed a passion for front-end development and improving user experiences. During my student years, I worked as a freelance prototyper, designing and developing software and hardware for my peers' thesis and capstone projects. This experience taught me the importance of collaboration and teamwork in bringing ideas to life. Combining this experience with my current role as a software engineer, I am confident in my ability to excel in this field."
+            },
+            {
+                "id": 2,
+                "content": "Previously, I worked as a Radio Frequency Engineer, specializing in Inbuilding Solutions. During my two years in this role, I developed proficiency in both 2D and 3D AutoCAD, which enabled me to design and implement CME projects that met the project's compliance requirements. I also have experience using Walktest tools like TEMS Pocket and Nemo Handy and working with passive/SCMIMO/Hybrid Distributed Antenna Systems (DAS). My knowledge of various mobile network technologies including GSM, UMTS, LTE, and NR, as well as my understanding of active indoor solutions like Lampsite, further enhance my capabilities. In addition, my ability to drive both manual and automatic transmission vehicles made me a versatile team member."
+            }
+        ]
+    }
+}

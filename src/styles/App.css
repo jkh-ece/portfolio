@@ -1,0 +1,97 @@
+.portfolio {
+    margin: 0px;
+    /* background-image: linear-gradient(#0f0f0f, #111); */
+    color: #bbb;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    min-height: 100vh;
+    
+
+}
+
+.portfolio-topbar {
+    display: flex;
+    max-width: vw;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 5%;
+    border: none;
+    background-color: #020216;
+    height: 5vh;
+}
+
+.topbar-logo {
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.topbar-logo:hover {
+    transform: scale(1.2);
+}
+
+.topbar-nav {
+    display: flex;
+    padding: 0 30;
+}
+
+.nav-btn {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-left: 20px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #bbb;
+    transition: 0.3s;
+}
+.nav-btn.active{
+    background-color: #11f;
+}
+.nav-btn:hover {
+    background-color: yellow;
+    transform: scale(1.2);
+}
+.nav-btn:active {
+    background-color: yellow;
+    transform: translateY(10%);
+}
+
+.portfolio-main {
+    display: flex; 
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.portfolio-footer {
+    position: sticky;
+    top: 100%;
+    background-color: #020216;
+    padding: 5px;
+    text-align: center;
+    color: #161626;
+}
+
+.notFound {
+    max-width: vw;
+    margin-top: 30vh;
+    color: #bbb;
+    overflow: hidden;
+}
+
+.notFound p{
+    text-align: center;
+    align-items: center;
+    font-size: 5em;    
+    font-family: monospace;
+    font-weight: bold;
+    transition: 1s;
+}
+
+.notFound p:hover{
+    transform: scale(3.5);
+}
