@@ -9,7 +9,7 @@ import { useState} from 'react';
 
 function App() {
   const [activeBtn, setActiveBtn] = useState("Home");
-  const [page, setPage] = useState("Home");
+  const [page, setPage] = useState("JKH");
 
   const pageChangeHandler = (value) => {
     setActiveBtn(value);
