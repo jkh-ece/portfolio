@@ -206,10 +206,14 @@
                     },
                     {
                         "id": 2,
-                        "role": "Accomplished company required trainings"
+                        "role": "Manages client tickets."
                     },
                     {
                         "id": 3,
+                        "role": "Develops software functionalities for the banking application."
+                    },
+                    {
+                        "id": 4,
                         "role": "Assists in Java for customer management app"
                     }
                 ]
