@@ -2,7 +2,6 @@ import '../styles/Contact.css';
 
 function Contact(contact) {
   const data = contact.data;
-  console.log(data);
 
   const buttonHandler = (url) => {
     window.open(url);
