@@ -2,6 +2,7 @@ import '../styles/Contact.css';
 
 function Contact(contact) {
   const data = contact.data;
+  console.log(data);
 
   const buttonHandler = (url) => {
     window.open(url);
@@ -50,7 +51,7 @@ function Contact(contact) {
             Facebook</button>
           <button
             value={data.LinkedInURL}
-            onClick={e => buttonHandler(e)}>
+            onClick={e => buttonHandler(e.target.value)}>
             LinkedIn</button>
         </div>
       </div>
